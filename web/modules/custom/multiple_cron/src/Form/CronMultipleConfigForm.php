@@ -72,7 +72,7 @@ class CronMultipleConfigForm extends FormBase {
    * {@inheritdoc}
    */
   public function validateForm(array &$form, FormStateInterface $form_state) {
-    
+    //this is the check that if i reset after push then what it will do
       $values = $form_state->getValues();
       $regex = '/^[a-zA-Z\s]+$/';
       if (!preg_match($regex, $values['name'])) {
