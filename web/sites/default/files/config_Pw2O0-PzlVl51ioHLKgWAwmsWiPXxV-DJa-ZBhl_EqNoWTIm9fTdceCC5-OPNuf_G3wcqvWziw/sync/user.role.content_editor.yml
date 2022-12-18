@@ -10,6 +10,7 @@ dependencies:
     - comment
     - contextual
     - file
+    - multiple_cron
     - node
     - path
     - system
@@ -23,6 +24,7 @@ label: 'Content editor'
 weight: 2
 is_admin: false
 permissions:
+  - 'Add multiple cron config permission'
   - 'access administration pages'
   - 'access content overview'
   - 'access contextual links'
