@@ -1,0 +1,16 @@
+uuid: null
+langcode: en
+status: true
+dependencies:
+  modules: multiple_cron
+title: 'testing cron'
+id: multiple_cron_testing_cron
+weight: 0
+module: multiple_cron
+callback: test_cron_test
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

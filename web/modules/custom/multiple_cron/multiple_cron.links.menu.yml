@@ -1,0 +1,6 @@
+multiple_cron.add_form:
+  title: 'Multiple cron add page'
+  route_name: multiple_cron.multiple_cron_config_form
+  description: 'Multiple cron add page'
+  parent: system.admin_config_system
+  weight: 99

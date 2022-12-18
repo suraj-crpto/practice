@@ -1,0 +1,9 @@
+multiple_cron.multiple_cron_config_form:
+  path: '/admin/config/multiple_cron/settings'
+  defaults:
+    _form: '\Drupal\multiple_cron\Form\CronMultipleConfigForm'
+    _title: 'Multiple cron config'
+  requirements:
+    _permission: 'add multiple cron config permission'
+  options:
+    _admin_route: TRUE
