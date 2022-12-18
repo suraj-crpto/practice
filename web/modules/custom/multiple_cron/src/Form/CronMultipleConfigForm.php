@@ -14,7 +14,7 @@ class CronMultipleConfigForm extends FormBase {
    * {@inheritdoc}
    */
   public function getFormId() {
-    //this is test
+    //cron config form id
     return 'cron_multiple_settings_form';
   }
 
